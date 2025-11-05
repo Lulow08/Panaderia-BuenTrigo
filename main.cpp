@@ -11,7 +11,7 @@ int main() {
     // Crear el controlador
     Controlador controlador(panaderia, vista);
     
-    // Datos de prueba iniciales (opcional)
+    // Datos de prueba iniciales
     panaderia.agregarIngrediente("Harina", "kg", 50.0, 10.0);
     panaderia.agregarIngrediente("Levadura", "g", 500.0, 100.0);
     panaderia.agregarIngrediente("Azucar", "kg", 20.0, 5.0);
