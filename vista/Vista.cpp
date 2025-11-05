@@ -34,7 +34,7 @@ void Vista::pausar() const {
 
 void Vista::mostrarMenuSeleccionUsuario() const {
     std::cout << "\n========================================\n";
-    std::cout << "      PANADERIA EL BUEN TRIGO\n";
+    std::cout << "      PANADERIA EL BUEN TRIGO!\n";
     std::cout << "========================================\n";
     std::cout << "Seleccione tipo de usuario:\n";
     std::cout << "1. Panadero\n";
