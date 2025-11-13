@@ -1,3 +1,44 @@
+/*
+    Proyecto: Panaderia el Buen Trigo
+    Curso: Fundamentos de Programación Orientada a Objetos (FPOO)
+    Universidad del Valle
+    
+    Información CRC:
+
+    Clase: Vista
+
+    Responsabilidades:
+        - Mostrar menús específicos para cada tipo de usuario
+        - Presentar mensajes, alertas, errores y confirmaciones
+        - Capturar entradas del usuario (opciones, texto, números)
+        - Gestionar la interfaz de consola (limpiar, pausar)
+        - Formatear y mostrar información de forma legible
+
+    Colaboradores:
+        - Controlador: es usado para mostrar información y capturar entradas
+        - Usuario: usa para mostrar menús según el tipo de usuario
+
+    @details
+    Componente Vista del patrón MVC. Maneja toda la interacción con el usuario.
+    No contiene lógica de negocio, solo presentación y captura de datos.
+
+    Autores:
+    Lesly Zapata
+    Yostin Ramirez
+    Juan Manuel Rosero
+    Joseph Terreros
+    Juan Esteban Mina
+
+    Correos:
+    lesly.zapata@correounivalle.edu.co
+    yostin.ramirez@correounivalle.edu.co
+    joseph.terreros@correounivalle.edu.co
+    juan.encarnacion@correounivalle.edu.co
+    juan.esteban.mina@correounivalle.edu.co
+
+    @date Fecha: Noviembre 2025
+*/
+
 #pragma once
 
 #include "Usuario.h"
