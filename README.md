@@ -4,8 +4,8 @@ Proyecto del curso Fundamentos de Programación Orientada a Objetos (FPOO) de la
 
 ---
 
-Sistema de gestión en C++ para automatizar las operaciones de una panadería, implementando el patrón de diseño MV (Modelo-Vista-Controlador).
-El programa permite gestionar el inventario de materias primas, crear y administrar recetas de diferentes tipos de pan, controlar el proceso de producción con descuento automático de ingredientes, llevar registro del stock de productos terminados, y generar alertas cuando los ingredientes están por debajo del nivel mínimo establecido.
+Sistema de gestión en C++ para automatizar las operaciones de una panadería, implementando el patrón de diseño MVC (Modelo-Vista-Controlador).
+El programa permite gestionar el inventario de materias primas, crear y administrar recetas de diferentes tipos de pan, controlar el proceso de producción con descuento automático de ingredientes, llevar registro del stock de productos terminados, y generar alertas cuando los ingredientes están por debajo del nivel mínimo establecido o de la producción.
 
 ## Estructura del Sistema
 
