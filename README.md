@@ -1,4 +1,4 @@
-# Agentes Inteligentes en un Laberinto
+# Panadería El Buen Trigo
 
 Proyecto del curso Fundamentos de Programación Orientada a Objetos (FPOO) de la Universidad del Valle.
 
