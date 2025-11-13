@@ -11,8 +11,9 @@ int main() {
     // Crear el controlador
     Controlador controlador(panaderia, vista);
     
-    // Datos de prueba iniciales
-    panaderia.agregarIngrediente("Harina", "kg", 50.0, 10.0);
+    // Datos de prueba iniciales para tests o referencias de formato para agregar ingredientes y recetas
+
+    /*panaderia.agregarIngrediente("Harina", "kg", 50.0, 10.0);
     panaderia.agregarIngrediente("Levadura", "g", 500.0, 100.0);
     panaderia.agregarIngrediente("Azucar", "kg", 20.0, 5.0);
     panaderia.agregarIngrediente("Sal", "g", 1000.0, 200.0);
@@ -31,7 +32,7 @@ int main() {
     panaderia.agregarIngredienteAReceta("Pan Dulce", "Levadura", 8.0);
     panaderia.agregarIngredienteAReceta("Pan Dulce", "Azucar", 0.1);
     panaderia.agregarIngredienteAReceta("Pan Dulce", "Mantequilla", 0.05);
-    panaderia.agregarIngredienteAReceta("Pan Dulce", "Agua", 0.2);
+    panaderia.agregarIngredienteAReceta("Pan Dulce", "Agua", 0.2);*/
     
     // Iniciar el sistema
     vista.mostrarMensaje("Bienvenido al Sistema de Gestion de Panaderia El Buen Trigo");

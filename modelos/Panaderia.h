@@ -1,3 +1,50 @@
+/*
+    Proyecto: Panaderia el Buen Trigo
+    Curso: Fundamentos de Programación Orientada a Objetos (FPOO)
+    Universidad del Valle
+    
+    Información CRC:
+
+    Clase: Panaderia
+
+    Responsabilidades:
+        - Coordinar todas las operaciones del sistema (clase principal del Modelo)
+        - Gestionar el inventario de ingredientes
+        - Administrar las recetas de panes
+        - Controlar el stock de productos terminados
+        - Validar disponibilidad de ingredientes antes de producir
+        - Ejecutar el proceso de producción descontando ingredientes
+        - Generar reportes completos del estado del sistema
+        - Proporcionar alertas de reposición
+
+    Colaboradores:
+        - Inventario: contiene y delega la gestión de ingredientes
+        - Stock: contiene y delega el control de productos terminados
+        - Receta: contiene y gestiona múltiples recetas
+        - Ingrediente: usa para verificar disponibilidad
+        - Controlador: es usado para ejecutar la lógica de negocio
+
+    @details
+    Clase central del patrón MVC (Modelo). Implementa composición con Inventario, Stock y Receta.
+    Responsable de la lógica de producción y validación de recursos.
+
+    Autores:
+    Lesly Zapata
+    Yostin Ramirez
+    Juan Manuel Rosero
+    Joseph Terreros
+    Juan Esteban Mina
+
+    Correos:
+    lesly.zapata@correounivalle.edu.co
+    yostin.ramirez@correounivalle.edu.co
+    joseph.terreros@correounivalle.edu.co
+    juan.encarnacion@correounivalle.edu.co
+    juan.esteban.mina@correounivalle.edu.co
+
+    @date Fecha: Noviembre 2025
+*/
+
 #pragma once
 
 #include "Inventario.h"
